@@ -1,42 +1,40 @@
-# 🧠 NotebookLM Integration
+# NotebookLM Study Companion
 
-This repository has a dedicated [Google NotebookLM](https://notebooklm.google.com) notebook
-pre-loaded with all curated papers, ebooks, and resources for **Reinforcement Learning**.
+This repository has a companion study notebook on [Google NotebookLM](https://notebooklm.google.com) — an AI-powered research and study tool by Google.
 
-## 📚 What's Inside the Notebook
-- 📄 Key research papers and articles
-- 📖 Free textbooks and ebooks
-- 🔗 Official documentation and guides
-- 🎓 Course materials and tutorials
+## What is NotebookLM?
 
-## 🎯 Generated Study Artifacts
-| Artifact | Description |
+[NotebookLM](https://notebooklm.google.com) lets you upload sources (papers, docs, URLs) and then chat with them, generate podcasts, quizzes, flashcards, mind maps, and study guides — all grounded in your sources.
+
+## Create Your Own Notebook for Reinforcement Learning
+
+1. Go to [notebooklm.google.com](https://notebooklm.google.com) and sign in
+2. Click **New Notebook**
+3. Add these recommended sources:
+
+- http://incompleteideas.net/book/the-book-2nd.html
+- https://arxiv.org/abs/1312.5602
+- https://arxiv.org/abs/1707.06347
+- https://arxiv.org/abs/1801.01290
+
+4. Once sources are loaded, try:
+   - **Ask questions** grounded in the material
+   - **Generate an Audio Overview** for a podcast-style deep dive
+   - **Create a Study Guide** for structured learning
+   - **Generate Quizzes** to test your understanding
+   - **Create Flashcards** for key terms
+
+## Available Study Artifacts
+
+| Artifact | What It Does |
 |----------|-------------|
-| 🎙️ Audio Podcast | Technical deep-dive discussion of core concepts |
-| ❓ Quiz | Hard-difficulty questions to test understanding |
-| 🗂️ Flashcards | Key terms and definitions for quick review |
-| 🗺️ Mind Map | Visual overview of topic relationships |
-| 📖 Study Guide | Structured learning path through the material |
+| Audio Overview | AI-generated podcast discussing core concepts |
+| Quiz | Questions to test understanding |
+| Flashcards | Key terms and definitions for review |
+| Mind Map | Visual overview of topic relationships |
+| Study Guide | Structured learning path through the material |
 
-## 🚀 Access via CLI
-```bash
-# Activate this notebook
-python -m notebooklm use e2a0937c-351d-4fd5-b261-4c938efb0e51
+## Learn More
 
-# Ask questions grounded in the sources
-python -m notebooklm ask "Your question here"
-
-# Regenerate artifacts
-python -m notebooklm generate audio --wait
-python -m notebooklm generate quiz --difficulty hard
-python -m notebooklm generate flashcards
-python -m notebooklm generate mind-map
-python -m notebooklm generate study-guide
-```
-
-## 🔑 Notebook ID
-`e2a0937c-351d-4fd5-b261-4c938efb0e51`
-
-## 🔧 Setup
-See the [notebooklm-integration](https://github.com/DatariusAI/notebooklm-integration)
-repo for full installation and authentication instructions.
+- [NotebookLM Help](https://support.google.com/notebooklm)
+- See this repo's [README](./README.md) for full topic coverage
